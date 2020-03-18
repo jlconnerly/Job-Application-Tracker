@@ -9,13 +9,20 @@
 /* Begin PBXBuildFile section */
 		32BEBBDF2422B39F0088138C /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 32BEBBDE2422B39F0088138C /* AppDelegate.swift */; };
 		32BEBBE12422B39F0088138C /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 32BEBBE02422B39F0088138C /* SceneDelegate.swift */; };
-		32BEBBE32422B39F0088138C /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 32BEBBE22422B39F0088138C /* ViewController.swift */; };
 		32BEBBE62422B39F0088138C /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 32BEBBE42422B39F0088138C /* Main.storyboard */; };
 		32BEBBE92422B39F0088138C /* Job_Application_Tracker.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 32BEBBE72422B39F0088138C /* Job_Application_Tracker.xcdatamodeld */; };
 		32BEBBEB2422B3A20088138C /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 32BEBBEA2422B3A20088138C /* Assets.xcassets */; };
 		32BEBBEE2422B3A20088138C /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 32BEBBEC2422B3A20088138C /* LaunchScreen.storyboard */; };
 		32BEBBF92422B3A20088138C /* Job_Application_TrackerTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 32BEBBF82422B3A20088138C /* Job_Application_TrackerTests.swift */; };
 		32BEBC042422B3A20088138C /* Job_Application_TrackerUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 32BEBC032422B3A20088138C /* Job_Application_TrackerUITests.swift */; };
+		32BEBC162422B7990088138C /* CustomColors+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = 32BEBC152422B7990088138C /* CustomColors+Extension.swift */; };
+		32BEBC182422B8A10088138C /* CurrentApplicationsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 32BEBC172422B8A10088138C /* CurrentApplicationsViewController.swift */; };
+		32BEBC1A2422BC9D0088138C /* CustomCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 32BEBC192422BC9C0088138C /* CustomCollectionViewCell.swift */; };
+		32BEBC1D2422C7630088138C /* CoreDataStack.swift in Sources */ = {isa = PBXBuildFile; fileRef = 32BEBC1C2422C7630088138C /* CoreDataStack.swift */; };
+		32BEBC1F2422C8850088138C /* JobApplication+ Convenience.swift.swift in Sources */ = {isa = PBXBuildFile; fileRef = 32BEBC1E2422C8850088138C /* JobApplication+ Convenience.swift.swift */; };
+		32BEBC222422CE2B0088138C /* JobApplicationRepresentation.swift in Sources */ = {isa = PBXBuildFile; fileRef = 32BEBC212422CE2B0088138C /* JobApplicationRepresentation.swift */; };
+		32BEBC242422D0310088138C /* User+Convenience.swift in Sources */ = {isa = PBXBuildFile; fileRef = 32BEBC232422D0310088138C /* User+Convenience.swift */; };
+		32BEBC262422D03E0088138C /* UserRepresentation.swift in Sources */ = {isa = PBXBuildFile; fileRef = 32BEBC252422D03E0088138C /* UserRepresentation.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -39,7 +46,6 @@
 		32BEBBDB2422B39F0088138C /* Job Application Tracker.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Job Application Tracker.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		32BEBBDE2422B39F0088138C /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		32BEBBE02422B39F0088138C /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		32BEBBE22422B39F0088138C /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		32BEBBE52422B39F0088138C /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		32BEBBE82422B39F0088138C /* Job_Application_Tracker.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = Job_Application_Tracker.xcdatamodel; sourceTree = "<group>"; };
 		32BEBBEA2422B3A20088138C /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
@@ -51,6 +57,15 @@
 		32BEBBFF2422B3A20088138C /* Job Application TrackerUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Job Application TrackerUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		32BEBC032422B3A20088138C /* Job_Application_TrackerUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Job_Application_TrackerUITests.swift; sourceTree = "<group>"; };
 		32BEBC052422B3A30088138C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		32BEBC152422B7990088138C /* CustomColors+Extension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "CustomColors+Extension.swift"; sourceTree = "<group>"; };
+		32BEBC172422B8A10088138C /* CurrentApplicationsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CurrentApplicationsViewController.swift; sourceTree = "<group>"; };
+		32BEBC192422BC9C0088138C /* CustomCollectionViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CustomCollectionViewCell.swift; sourceTree = "<group>"; };
+		32BEBC1C2422C7630088138C /* CoreDataStack.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CoreDataStack.swift; sourceTree = "<group>"; };
+		32BEBC1E2422C8850088138C /* JobApplication+ Convenience.swift.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "JobApplication+ Convenience.swift.swift"; sourceTree = "<group>"; };
+		32BEBC202422C90C0088138C /* Job_Application_Tracker 2.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = "Job_Application_Tracker 2.xcdatamodel"; sourceTree = "<group>"; };
+		32BEBC212422CE2B0088138C /* JobApplicationRepresentation.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = JobApplicationRepresentation.swift; sourceTree = "<group>"; };
+		32BEBC232422D0310088138C /* User+Convenience.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "User+Convenience.swift"; sourceTree = "<group>"; };
+		32BEBC252422D03E0088138C /* UserRepresentation.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserRepresentation.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -103,8 +118,10 @@
 			children = (
 				32BEBC142422B46C0088138C /* Models */,
 				32BEBC122422B4500088138C /* View Controllers */,
+				32BEBC1B2422BD950088138C /* Views */,
 				32BEBC132422B45F0088138C /* Storyboards */,
 				32BEBC112422B4330088138C /* Resources */,
+				32BEBC152422B7990088138C /* CustomColors+Extension.swift */,
 			);
 			path = "Job Application Tracker";
 			sourceTree = "<group>";
@@ -141,7 +158,7 @@
 		32BEBC122422B4500088138C /* View Controllers */ = {
 			isa = PBXGroup;
 			children = (
-				32BEBBE22422B39F0088138C /* ViewController.swift */,
+				32BEBC172422B8A10088138C /* CurrentApplicationsViewController.swift */,
 			);
 			path = "View Controllers";
 			sourceTree = "<group>";
@@ -159,8 +176,21 @@
 			isa = PBXGroup;
 			children = (
 				32BEBBE72422B39F0088138C /* Job_Application_Tracker.xcdatamodeld */,
+				32BEBC1C2422C7630088138C /* CoreDataStack.swift */,
+				32BEBC1E2422C8850088138C /* JobApplication+ Convenience.swift.swift */,
+				32BEBC212422CE2B0088138C /* JobApplicationRepresentation.swift */,
+				32BEBC232422D0310088138C /* User+Convenience.swift */,
+				32BEBC252422D03E0088138C /* UserRepresentation.swift */,
 			);
 			path = Models;
+			sourceTree = "<group>";
+		};
+		32BEBC1B2422BD950088138C /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				32BEBC192422BC9C0088138C /* CustomCollectionViewCell.swift */,
+			);
+			path = Views;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -294,8 +324,15 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				32BEBBE32422B39F0088138C /* ViewController.swift in Sources */,
+				32BEBC1F2422C8850088138C /* JobApplication+ Convenience.swift.swift in Sources */,
+				32BEBC1D2422C7630088138C /* CoreDataStack.swift in Sources */,
+				32BEBC162422B7990088138C /* CustomColors+Extension.swift in Sources */,
+				32BEBC1A2422BC9D0088138C /* CustomCollectionViewCell.swift in Sources */,
+				32BEBC242422D0310088138C /* User+Convenience.swift in Sources */,
+				32BEBC182422B8A10088138C /* CurrentApplicationsViewController.swift in Sources */,
 				32BEBBE92422B39F0088138C /* Job_Application_Tracker.xcdatamodeld in Sources */,
+				32BEBC222422CE2B0088138C /* JobApplicationRepresentation.swift in Sources */,
+				32BEBC262422D03E0088138C /* UserRepresentation.swift in Sources */,
 				32BEBBDF2422B39F0088138C /* AppDelegate.swift in Sources */,
 				32BEBBE12422B39F0088138C /* SceneDelegate.swift in Sources */,
 			);
@@ -631,9 +668,10 @@
 		32BEBBE72422B39F0088138C /* Job_Application_Tracker.xcdatamodeld */ = {
 			isa = XCVersionGroup;
 			children = (
+				32BEBC202422C90C0088138C /* Job_Application_Tracker 2.xcdatamodel */,
 				32BEBBE82422B39F0088138C /* Job_Application_Tracker.xcdatamodel */,
 			);
-			currentVersion = 32BEBBE82422B39F0088138C /* Job_Application_Tracker.xcdatamodel */;
+			currentVersion = 32BEBC202422C90C0088138C /* Job_Application_Tracker 2.xcdatamodel */;
 			path = Job_Application_Tracker.xcdatamodeld;
 			sourceTree = "<group>";
 			versionGroupType = wrapper.xcdatamodel;
