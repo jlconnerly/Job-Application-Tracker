@@ -23,6 +23,8 @@
 		32BEBC222422CE2B0088138C /* JobApplicationRepresentation.swift in Sources */ = {isa = PBXBuildFile; fileRef = 32BEBC212422CE2B0088138C /* JobApplicationRepresentation.swift */; };
 		32BEBC242422D0310088138C /* User+Convenience.swift in Sources */ = {isa = PBXBuildFile; fileRef = 32BEBC232422D0310088138C /* User+Convenience.swift */; };
 		32BEBC262422D03E0088138C /* UserRepresentation.swift in Sources */ = {isa = PBXBuildFile; fileRef = 32BEBC252422D03E0088138C /* UserRepresentation.swift */; };
+		32BEBC282422D39E0088138C /* signUpSignIn.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 32BEBC272422D39E0088138C /* signUpSignIn.storyboard */; };
+		32BEBC2B2422D6DA0088138C /* SignUpSignInViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 32BEBC2A2422D6DA0088138C /* SignUpSignInViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -66,6 +68,9 @@
 		32BEBC212422CE2B0088138C /* JobApplicationRepresentation.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = JobApplicationRepresentation.swift; sourceTree = "<group>"; };
 		32BEBC232422D0310088138C /* User+Convenience.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "User+Convenience.swift"; sourceTree = "<group>"; };
 		32BEBC252422D03E0088138C /* UserRepresentation.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserRepresentation.swift; sourceTree = "<group>"; };
+		32BEBC272422D39E0088138C /* signUpSignIn.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = signUpSignIn.storyboard; sourceTree = "<group>"; };
+		32BEBC292422D4440088138C /* Job_Application_Tracker 3.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = "Job_Application_Tracker 3.xcdatamodel"; sourceTree = "<group>"; };
+		32BEBC2A2422D6DA0088138C /* SignUpSignInViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SignUpSignInViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -159,6 +164,7 @@
 			isa = PBXGroup;
 			children = (
 				32BEBC172422B8A10088138C /* CurrentApplicationsViewController.swift */,
+				32BEBC2A2422D6DA0088138C /* SignUpSignInViewController.swift */,
 			);
 			path = "View Controllers";
 			sourceTree = "<group>";
@@ -166,8 +172,9 @@
 		32BEBC132422B45F0088138C /* Storyboards */ = {
 			isa = PBXGroup;
 			children = (
-				32BEBBE42422B39F0088138C /* Main.storyboard */,
 				32BEBBEC2422B3A20088138C /* LaunchScreen.storyboard */,
+				32BEBC272422D39E0088138C /* signUpSignIn.storyboard */,
+				32BEBBE42422B39F0088138C /* Main.storyboard */,
 			);
 			path = Storyboards;
 			sourceTree = "<group>";
@@ -297,6 +304,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				32BEBC282422D39E0088138C /* signUpSignIn.storyboard in Resources */,
 				32BEBBEE2422B3A20088138C /* LaunchScreen.storyboard in Resources */,
 				32BEBBEB2422B3A20088138C /* Assets.xcassets in Resources */,
 				32BEBBE62422B39F0088138C /* Main.storyboard in Resources */,
@@ -332,6 +340,7 @@
 				32BEBC182422B8A10088138C /* CurrentApplicationsViewController.swift in Sources */,
 				32BEBBE92422B39F0088138C /* Job_Application_Tracker.xcdatamodeld in Sources */,
 				32BEBC222422CE2B0088138C /* JobApplicationRepresentation.swift in Sources */,
+				32BEBC2B2422D6DA0088138C /* SignUpSignInViewController.swift in Sources */,
 				32BEBC262422D03E0088138C /* UserRepresentation.swift in Sources */,
 				32BEBBDF2422B39F0088138C /* AppDelegate.swift in Sources */,
 				32BEBBE12422B39F0088138C /* SceneDelegate.swift in Sources */,
@@ -668,10 +677,11 @@
 		32BEBBE72422B39F0088138C /* Job_Application_Tracker.xcdatamodeld */ = {
 			isa = XCVersionGroup;
 			children = (
+				32BEBC292422D4440088138C /* Job_Application_Tracker 3.xcdatamodel */,
 				32BEBC202422C90C0088138C /* Job_Application_Tracker 2.xcdatamodel */,
 				32BEBBE82422B39F0088138C /* Job_Application_Tracker.xcdatamodel */,
 			);
-			currentVersion = 32BEBC202422C90C0088138C /* Job_Application_Tracker 2.xcdatamodel */;
+			currentVersion = 32BEBC292422D4440088138C /* Job_Application_Tracker 3.xcdatamodel */;
 			path = Job_Application_Tracker.xcdatamodeld;
 			sourceTree = "<group>";
 			versionGroupType = wrapper.xcdatamodel;

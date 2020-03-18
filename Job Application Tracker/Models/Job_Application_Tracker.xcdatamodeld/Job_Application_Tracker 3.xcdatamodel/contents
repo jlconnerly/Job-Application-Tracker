@@ -9,6 +9,7 @@
         <relationship name="user" optional="YES" maxCount="1" deletionRule="Nullify" destinationEntity="User" inverseName="jobApplications" inverseEntity="User"/>
     </entity>
     <entity name="User" representedClassName="User" syncable="YES" codeGenerationType="class">
+        <attribute name="email" optional="YES" attributeType="String"/>
         <attribute name="identifier" optional="YES" attributeType="String"/>
         <attribute name="password" optional="YES" attributeType="String"/>
         <attribute name="username" optional="YES" attributeType="String"/>
@@ -16,6 +17,6 @@
     </entity>
     <elements>
         <element name="JobApplication" positionX="-63" positionY="-18" width="128" height="133"/>
-        <element name="User" positionX="-54" positionY="18" width="128" height="103"/>
+        <element name="User" positionX="-54" positionY="18" width="128" height="118"/>
     </elements>
 </model>

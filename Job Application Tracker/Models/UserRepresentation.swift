@@ -9,6 +9,7 @@
 import Foundation
 
 struct UserRepresentation: Codable {
+    var email: String?
     var username: String?
     var password: String?
     var identifier: String?
@@ -16,7 +17,8 @@ struct UserRepresentation: Codable {
 
 extension UserRepresentation: Equatable {
     static func == (lhs: UserRepresentation, rhs: User) -> Bool {
-        return lhs.username == rhs.username &&
+        return lhs.email == rhs.email &&
+        lhs.username == rhs.username &&
         lhs.password == rhs.password &&
         lhs.identifier == rhs.identifier
     }
