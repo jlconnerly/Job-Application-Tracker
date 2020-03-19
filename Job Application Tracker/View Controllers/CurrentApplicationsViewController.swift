@@ -12,9 +12,18 @@ class CurrentApplicationsViewController: UIViewController {
 
     @IBOutlet weak var collectionView: UICollectionView!
     
+    let userController = UserController()
+    
     override func viewDidLoad() {
         super.viewDidLoad()
         configureNavigationBar()
+        isFirstLaunchCheck()
+    }
+    
+    private func isFirstLaunchCheck() {
+        if UserDefaults.isFirstLaunch() == true || userController.user == nil {
+            performSegue(withIdentifier: "SignInSegue", sender: self)
+        }
     }
     
     func configureNavigationBar() {
@@ -43,26 +52,26 @@ class CurrentApplicationsViewController: UIViewController {
         }
     }
 
-    /*
     // MARK: - Navigation
 
     // In a storyboard-based application, you will often want to do a little preparation before navigation
     override func prepare(for segue: UIStoryboardSegue, sender: Any?) {
-        // Get the new view controller using segue.destination.
-        // Pass the selected object to the new view controller.
+        if segue.identifier == "SignInSegue" {
+            guard let signInVC = segue.destination as? SignUpSignInViewController else { return }
+            signInVC.userController = userController
+        }
     }
-    */
 
 }
 
-extension CurrentApplicationsViewController: UICollectionViewDelegate, UICollectionViewDataSource {
-    func collectionView(_ collectionView: UICollectionView, numberOfItemsInSection section: Int) -> Int {
-        <#code#>
-    }
-    
-    func collectionView(_ collectionView: UICollectionView, cellForItemAt indexPath: IndexPath) -> UICollectionViewCell {
-        <#code#>
-    }
-    
-    
-}
+//extension CurrentApplicationsViewController: UICollectionViewDelegate, UICollectionViewDataSource {
+//    func collectionView(_ collectionView: UICollectionView, numberOfItemsInSection section: Int) -> Int {
+//        <#code#>
+//    }
+//    
+//    func collectionView(_ collectionView: UICollectionView, cellForItemAt indexPath: IndexPath) -> UICollectionViewCell {
+//        <#code#>
+//    }
+//    
+//    
+//}

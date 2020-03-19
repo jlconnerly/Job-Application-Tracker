@@ -3,10 +3,11 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 50;
+	objectVersion = 51;
 	objects = {
 
 /* Begin PBXBuildFile section */
+		19E1D867C1CAA6C36E95ADD8 /* Pods_Job_Application_Tracker.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3D697D84B4199D1612624945 /* Pods_Job_Application_Tracker.framework */; };
 		32BEBBDF2422B39F0088138C /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 32BEBBDE2422B39F0088138C /* AppDelegate.swift */; };
 		32BEBBE12422B39F0088138C /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 32BEBBE02422B39F0088138C /* SceneDelegate.swift */; };
 		32BEBBE62422B39F0088138C /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 32BEBBE42422B39F0088138C /* Main.storyboard */; };
@@ -25,6 +26,14 @@
 		32BEBC262422D03E0088138C /* UserRepresentation.swift in Sources */ = {isa = PBXBuildFile; fileRef = 32BEBC252422D03E0088138C /* UserRepresentation.swift */; };
 		32BEBC282422D39E0088138C /* signUpSignIn.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 32BEBC272422D39E0088138C /* signUpSignIn.storyboard */; };
 		32BEBC2B2422D6DA0088138C /* SignUpSignInViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 32BEBC2A2422D6DA0088138C /* SignUpSignInViewController.swift */; };
+		32BEBC2D2422D7AB0088138C /* UserController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 32BEBC2C2422D7AB0088138C /* UserController.swift */; };
+		32BEBC312422DD490088138C /* JobApplicationController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 32BEBC302422DD490088138C /* JobApplicationController.swift */; };
+		32BEBC33242318D50088138C /* SwiftKeychainWrapper.swift in Sources */ = {isa = PBXBuildFile; fileRef = 32BEBC32242318D50088138C /* SwiftKeychainWrapper.swift */; };
+		32BEBC35242319030088138C /* SwiftKeychainWrapperAccessibility.swift in Sources */ = {isa = PBXBuildFile; fileRef = 32BEBC34242319030088138C /* SwiftKeychainWrapperAccessibility.swift */; };
+		32BEBC3724231CF00088138C /* UserDefaults+IsFirstLaunchCheck.swift in Sources */ = {isa = PBXBuildFile; fileRef = 32BEBC3624231CF00088138C /* UserDefaults+IsFirstLaunchCheck.swift */; };
+		32BEBC39242322680088138C /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 32BEBC38242322680088138C /* GoogleService-Info.plist */; };
+		7C7B902E2360057D624FED28 /* Pods_Job_Application_TrackerTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 840C6C806BB507900151E866 /* Pods_Job_Application_TrackerTests.framework */; };
+		C0A58C5CD0FD015CDF444836 /* Pods_Job_Application_Tracker_Job_Application_TrackerUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CFE6D78AEE1909CACE1CBE87 /* Pods_Job_Application_Tracker_Job_Application_TrackerUITests.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -45,6 +54,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		235CEB4FDF508D3178892C0C /* Pods-Job Application TrackerTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Job Application TrackerTests.release.xcconfig"; path = "Target Support Files/Pods-Job Application TrackerTests/Pods-Job Application TrackerTests.release.xcconfig"; sourceTree = "<group>"; };
 		32BEBBDB2422B39F0088138C /* Job Application Tracker.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Job Application Tracker.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		32BEBBDE2422B39F0088138C /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		32BEBBE02422B39F0088138C /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -71,6 +81,20 @@
 		32BEBC272422D39E0088138C /* signUpSignIn.storyboard */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; path = signUpSignIn.storyboard; sourceTree = "<group>"; };
 		32BEBC292422D4440088138C /* Job_Application_Tracker 3.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = "Job_Application_Tracker 3.xcdatamodel"; sourceTree = "<group>"; };
 		32BEBC2A2422D6DA0088138C /* SignUpSignInViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SignUpSignInViewController.swift; sourceTree = "<group>"; };
+		32BEBC2C2422D7AB0088138C /* UserController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserController.swift; sourceTree = "<group>"; };
+		32BEBC302422DD490088138C /* JobApplicationController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = JobApplicationController.swift; sourceTree = "<group>"; };
+		32BEBC32242318D50088138C /* SwiftKeychainWrapper.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SwiftKeychainWrapper.swift; sourceTree = "<group>"; };
+		32BEBC34242319030088138C /* SwiftKeychainWrapperAccessibility.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SwiftKeychainWrapperAccessibility.swift; sourceTree = "<group>"; };
+		32BEBC3624231CF00088138C /* UserDefaults+IsFirstLaunchCheck.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UserDefaults+IsFirstLaunchCheck.swift"; sourceTree = "<group>"; };
+		32BEBC38242322680088138C /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
+		38C55AF1498C25C94EB28BC9 /* Pods-Job Application TrackerTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Job Application TrackerTests.debug.xcconfig"; path = "Target Support Files/Pods-Job Application TrackerTests/Pods-Job Application TrackerTests.debug.xcconfig"; sourceTree = "<group>"; };
+		3D697D84B4199D1612624945 /* Pods_Job_Application_Tracker.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Job_Application_Tracker.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		4B6A47B291D5A1E77E842881 /* Pods-Job Application Tracker.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Job Application Tracker.release.xcconfig"; path = "Target Support Files/Pods-Job Application Tracker/Pods-Job Application Tracker.release.xcconfig"; sourceTree = "<group>"; };
+		60C8CD841BBBFE03EA3CE1FA /* Pods-Job Application Tracker.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Job Application Tracker.debug.xcconfig"; path = "Target Support Files/Pods-Job Application Tracker/Pods-Job Application Tracker.debug.xcconfig"; sourceTree = "<group>"; };
+		840C6C806BB507900151E866 /* Pods_Job_Application_TrackerTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Job_Application_TrackerTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		CFE6D78AEE1909CACE1CBE87 /* Pods_Job_Application_Tracker_Job_Application_TrackerUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Job_Application_Tracker_Job_Application_TrackerUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		F03869AF564781BEE5446A2F /* Pods-Job Application Tracker-Job Application TrackerUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Job Application Tracker-Job Application TrackerUITests.debug.xcconfig"; path = "Target Support Files/Pods-Job Application Tracker-Job Application TrackerUITests/Pods-Job Application Tracker-Job Application TrackerUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		FB6189458E73529EFB624F4D /* Pods-Job Application Tracker-Job Application TrackerUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Job Application Tracker-Job Application TrackerUITests.release.xcconfig"; path = "Target Support Files/Pods-Job Application Tracker-Job Application TrackerUITests/Pods-Job Application Tracker-Job Application TrackerUITests.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -78,6 +102,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				19E1D867C1CAA6C36E95ADD8 /* Pods_Job_Application_Tracker.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -85,6 +110,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				7C7B902E2360057D624FED28 /* Pods_Job_Application_TrackerTests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -92,6 +118,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				C0A58C5CD0FD015CDF444836 /* Pods_Job_Application_Tracker_Job_Application_TrackerUITests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -105,6 +132,8 @@
 				32BEBBF72422B3A20088138C /* Job Application TrackerTests */,
 				32BEBC022422B3A20088138C /* Job Application TrackerUITests */,
 				32BEBBDC2422B39F0088138C /* Products */,
+				7F33DEA5CC9AFA4B70C8487A /* Pods */,
+				614250CD3273D089ABDAE74D /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -122,11 +151,12 @@
 			isa = PBXGroup;
 			children = (
 				32BEBC142422B46C0088138C /* Models */,
+				32BEBC2E2422D7B00088138C /* ModelControllers */,
 				32BEBC122422B4500088138C /* View Controllers */,
 				32BEBC1B2422BD950088138C /* Views */,
 				32BEBC132422B45F0088138C /* Storyboards */,
 				32BEBC112422B4330088138C /* Resources */,
-				32BEBC152422B7990088138C /* CustomColors+Extension.swift */,
+				32BEBC2F2422D7C50088138C /* Helpers */,
 			);
 			path = "Job Application Tracker";
 			sourceTree = "<group>";
@@ -156,6 +186,7 @@
 				32BEBBE02422B39F0088138C /* SceneDelegate.swift */,
 				32BEBBEA2422B3A20088138C /* Assets.xcassets */,
 				32BEBBEF2422B3A20088138C /* Info.plist */,
+				32BEBC38242322680088138C /* GoogleService-Info.plist */,
 			);
 			path = Resources;
 			sourceTree = "<group>";
@@ -200,6 +231,49 @@
 			path = Views;
 			sourceTree = "<group>";
 		};
+		32BEBC2E2422D7B00088138C /* ModelControllers */ = {
+			isa = PBXGroup;
+			children = (
+				32BEBC2C2422D7AB0088138C /* UserController.swift */,
+				32BEBC302422DD490088138C /* JobApplicationController.swift */,
+			);
+			path = ModelControllers;
+			sourceTree = "<group>";
+		};
+		32BEBC2F2422D7C50088138C /* Helpers */ = {
+			isa = PBXGroup;
+			children = (
+				32BEBC152422B7990088138C /* CustomColors+Extension.swift */,
+				32BEBC32242318D50088138C /* SwiftKeychainWrapper.swift */,
+				32BEBC34242319030088138C /* SwiftKeychainWrapperAccessibility.swift */,
+				32BEBC3624231CF00088138C /* UserDefaults+IsFirstLaunchCheck.swift */,
+			);
+			path = Helpers;
+			sourceTree = "<group>";
+		};
+		614250CD3273D089ABDAE74D /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				3D697D84B4199D1612624945 /* Pods_Job_Application_Tracker.framework */,
+				CFE6D78AEE1909CACE1CBE87 /* Pods_Job_Application_Tracker_Job_Application_TrackerUITests.framework */,
+				840C6C806BB507900151E866 /* Pods_Job_Application_TrackerTests.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		7F33DEA5CC9AFA4B70C8487A /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				60C8CD841BBBFE03EA3CE1FA /* Pods-Job Application Tracker.debug.xcconfig */,
+				4B6A47B291D5A1E77E842881 /* Pods-Job Application Tracker.release.xcconfig */,
+				F03869AF564781BEE5446A2F /* Pods-Job Application Tracker-Job Application TrackerUITests.debug.xcconfig */,
+				FB6189458E73529EFB624F4D /* Pods-Job Application Tracker-Job Application TrackerUITests.release.xcconfig */,
+				38C55AF1498C25C94EB28BC9 /* Pods-Job Application TrackerTests.debug.xcconfig */,
+				235CEB4FDF508D3178892C0C /* Pods-Job Application TrackerTests.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -207,9 +281,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 32BEBC082422B3A30088138C /* Build configuration list for PBXNativeTarget "Job Application Tracker" */;
 			buildPhases = (
+				37175D7ADE44582904F04E11 /* [CP] Check Pods Manifest.lock */,
 				32BEBBD72422B39F0088138C /* Sources */,
 				32BEBBD82422B39F0088138C /* Frameworks */,
 				32BEBBD92422B39F0088138C /* Resources */,
+				C311FF77FD5EE641F92CFF35 /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -224,6 +300,7 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 32BEBC0B2422B3A30088138C /* Build configuration list for PBXNativeTarget "Job Application TrackerTests" */;
 			buildPhases = (
+				ECF0F8240F8579DB90536B21 /* [CP] Check Pods Manifest.lock */,
 				32BEBBF02422B3A20088138C /* Sources */,
 				32BEBBF12422B3A20088138C /* Frameworks */,
 				32BEBBF22422B3A20088138C /* Resources */,
@@ -242,9 +319,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 32BEBC0E2422B3A30088138C /* Build configuration list for PBXNativeTarget "Job Application TrackerUITests" */;
 			buildPhases = (
+				A1E47D01068D2B360E9D32ED /* [CP] Check Pods Manifest.lock */,
 				32BEBBFB2422B3A20088138C /* Sources */,
 				32BEBBFC2422B3A20088138C /* Frameworks */,
 				32BEBBFD2422B3A20088138C /* Resources */,
+				05304FE8D8568D1880D59016 /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -305,6 +384,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				32BEBC282422D39E0088138C /* signUpSignIn.storyboard in Resources */,
+				32BEBC39242322680088138C /* GoogleService-Info.plist in Resources */,
 				32BEBBEE2422B3A20088138C /* LaunchScreen.storyboard in Resources */,
 				32BEBBEB2422B3A20088138C /* Assets.xcassets in Resources */,
 				32BEBBE62422B39F0088138C /* Main.storyboard in Resources */,
@@ -327,16 +407,124 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		05304FE8D8568D1880D59016 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Job Application Tracker-Job Application TrackerUITests/Pods-Job Application Tracker-Job Application TrackerUITests-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Job Application Tracker-Job Application TrackerUITests/Pods-Job Application Tracker-Job Application TrackerUITests-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-Job Application Tracker-Job Application TrackerUITests/Pods-Job Application Tracker-Job Application TrackerUITests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		37175D7ADE44582904F04E11 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-Job Application Tracker-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		A1E47D01068D2B360E9D32ED /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-Job Application Tracker-Job Application TrackerUITests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		C311FF77FD5EE641F92CFF35 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Job Application Tracker/Pods-Job Application Tracker-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Job Application Tracker/Pods-Job Application Tracker-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-Job Application Tracker/Pods-Job Application Tracker-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		ECF0F8240F8579DB90536B21 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-Job Application TrackerTests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		32BEBBD72422B39F0088138C /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				32BEBC312422DD490088138C /* JobApplicationController.swift in Sources */,
 				32BEBC1F2422C8850088138C /* JobApplication+ Convenience.swift.swift in Sources */,
 				32BEBC1D2422C7630088138C /* CoreDataStack.swift in Sources */,
 				32BEBC162422B7990088138C /* CustomColors+Extension.swift in Sources */,
+				32BEBC35242319030088138C /* SwiftKeychainWrapperAccessibility.swift in Sources */,
+				32BEBC3724231CF00088138C /* UserDefaults+IsFirstLaunchCheck.swift in Sources */,
 				32BEBC1A2422BC9D0088138C /* CustomCollectionViewCell.swift in Sources */,
+				32BEBC33242318D50088138C /* SwiftKeychainWrapper.swift in Sources */,
 				32BEBC242422D0310088138C /* User+Convenience.swift in Sources */,
+				32BEBC2D2422D7AB0088138C /* UserController.swift in Sources */,
 				32BEBC182422B8A10088138C /* CurrentApplicationsViewController.swift in Sources */,
 				32BEBBE92422B39F0088138C /* Job_Application_Tracker.xcdatamodeld in Sources */,
 				32BEBC222422CE2B0088138C /* JobApplicationRepresentation.swift in Sources */,
@@ -514,6 +702,7 @@
 		};
 		32BEBC092422B3A30088138C /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 60C8CD841BBBFE03EA3CE1FA /* Pods-Job Application Tracker.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
@@ -532,6 +721,7 @@
 		};
 		32BEBC0A2422B3A30088138C /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 4B6A47B291D5A1E77E842881 /* Pods-Job Application Tracker.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
@@ -550,6 +740,7 @@
 		};
 		32BEBC0C2422B3A30088138C /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 38C55AF1498C25C94EB28BC9 /* Pods-Job Application TrackerTests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -572,6 +763,7 @@
 		};
 		32BEBC0D2422B3A30088138C /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 235CEB4FDF508D3178892C0C /* Pods-Job Application TrackerTests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -594,6 +786,7 @@
 		};
 		32BEBC0F2422B3A30088138C /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = F03869AF564781BEE5446A2F /* Pods-Job Application Tracker-Job Application TrackerUITests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
@@ -614,6 +807,7 @@
 		};
 		32BEBC102422B3A30088138C /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = FB6189458E73529EFB624F4D /* Pods-Job Application Tracker-Job Application TrackerUITests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;

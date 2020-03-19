@@ -52,17 +52,26 @@
                         <barButtonItem key="rightBarButtonItem" systemItem="add" id="pHx-Gm-Iyj">
                             <color key="tintColor" red="0.8901960784313725" green="0.8901960784313725" blue="0.8901960784313725" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                             <connections>
-                                <segue destination="c8E-h6-K71" kind="presentation" id="1yW-le-gdv"/>
+                                <segue destination="c8E-h6-K71" kind="presentation" identifier="AddNewJob" id="1yW-le-gdv"/>
                             </connections>
                         </barButtonItem>
                     </navigationItem>
                     <connections>
                         <outlet property="collectionView" destination="8De-gB-S8u" id="K2i-Zd-TPf"/>
+                        <segue destination="WNG-az-98L" kind="presentation" identifier="SignInSegue" modalPresentationStyle="fullScreen" id="MdG-tk-7vl"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
             </objects>
             <point key="canvasLocation" x="2718.840579710145" y="138.61607142857142"/>
+        </scene>
+        <!--signUpSignIn-->
+        <scene sceneID="oUP-pL-Bw7">
+            <objects>
+                <viewControllerPlaceholder storyboardName="signUpSignIn" id="WNG-az-98L" sceneMemberID="viewController"/>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="taP-4B-PcA" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="3450" y="-159"/>
         </scene>
         <!--View Controller-->
         <scene sceneID="p7N-dA-fEz">
@@ -77,7 +86,7 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="uan-J6-rEf" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="3529" y="139"/>
+            <point key="canvasLocation" x="3629" y="354"/>
         </scene>
         <!--Navigation Controller-->
         <scene sceneID="4y5-bn-maw">
