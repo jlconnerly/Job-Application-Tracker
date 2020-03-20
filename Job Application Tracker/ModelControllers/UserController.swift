@@ -12,7 +12,7 @@ import Firebase
 
 class UserController {
     var user: UserRepresentation?
-    var token: String?
+    var userID: String?
     
     let baseURL = URL(string: "https://job-application-tracker-afdaa.firebaseio.com/")!
     
@@ -32,13 +32,17 @@ class UserController {
                 ref?.child("users").child(firebaseUser.uid).setValue(["email": firebaseUser.email, "username": username])
                 
                 self.user = UserRepresentation(email: firebaseUser.email, username: username, password: password, identifier: firebaseUser.uid)
-                
+                print("User ID is: \(self.user?.identifier)")
                 do {
                     let context = CoreDataStack.shared.mainContext
                     context.performAndWait {
                         User(userRepresentation: self.user!)
                     }
                     try CoreDataStack.shared.save()
+                    self.userID = firebaseUser.uid
+                    if let userID = self.userID {
+                        KeychainWrapper.standard.set(userID, forKey: "userID")
+                    }
                     completion()
                 } catch {
                     NSLog("error saving user to CoreData:\(error)")
@@ -61,6 +65,10 @@ class UserController {
             DispatchQueue.main.async {
                 guard let firebaseUser = Auth.auth().currentUser else { return }
                 self.user = UserRepresentation(email: firebaseUser.email, username: firebaseUser.displayName, password: password, identifier: firebaseUser.uid)
+                KeychainWrapper.standard.set(firebaseUser.uid, forKey: "userID")
+                self.userID = KeychainWrapper.standard.string(forKey: "userID")
+                print("User ID is: \(self.user?.identifier)")
+                print("keychain saved ID is \(self.userID)")
                 let context = CoreDataStack.shared.mainContext
                 do{
                     context.performAndWait {

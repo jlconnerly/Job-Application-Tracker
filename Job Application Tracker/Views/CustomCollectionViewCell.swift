@@ -9,5 +9,5 @@
 import UIKit
 
 class CustomCollectionViewCell: UICollectionViewCell {
-    
+    var jobApplication: JobApplication?
 }
